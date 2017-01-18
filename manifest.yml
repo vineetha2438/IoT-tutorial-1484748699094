@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-tutorial
+  host: IoT-tutorial
+  disk_quota: 1024M
+  services:
+  - IoT-tutorial-cloudantNoSQLDB
+  - IoT-tutorial-iotf-service
